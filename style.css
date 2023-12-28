@@ -1,0 +1,447 @@
+.header {
+  height: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(72, 71, 71, 0.8);
+  backdrop-filter: blur(5px);
+  z-index: 100;
+  font-size: 25px;
+  align-items: center;
+  
+}
+
+.new-add-container {
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+
+
+.new-add {
+  background-color: rgb(64, 62, 62);
+  height: 500px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding-bottom: 30px;
+  text-align: center;
+
+
+}
+
+
+.new-title {
+ font-size: 25px;
+ color: #cae962;
+ margin-left: 17px;
+ 
+
+}
+
+
+
+
+
+.new-text {
+  margin-right: 80px;
+  color: white;
+}
+
+.new-text:hover {
+  color: #cae962;
+
+}
+
+.new-span {
+  font-size: 12px;
+  font-weight: 350;
+  color: rgb(190, 185, 185);
+}
+
+.anime-new {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 12px;
+}
+
+.anime-new img {
+  height: 80px;
+  border-radius: 8px;
+}
+
+
+
+
+body  {
+  margin: 0;
+  padding-bottom: 1000px;
+  padding-top:56px;
+  background-color: rgb(30, 29, 29);
+  
+
+}
+
+.title {
+  color: white;
+  font-size: 100px;
+  font-weight: bold;
+  
+}
+
+.facebook {
+  width: 100px;
+  height: 38px;
+  margin-left: 20px;
+  background-color: rgb(9, 102, 241);
+  color: white;
+  border-style: none;
+  border-radius: 12px;
+  transition: 0.3s all;
+  
+}
+
+.facebook:hover {
+  margin-bottom: 8px;
+  background-color: rgb(9, 82, 191);
+}
+
+.twitter {
+  width: 100px;
+  margin-left: 10px;
+  height: 40px;
+  color: white;
+  background-color: black;
+  border-radius: 12px;
+  border-style:none;
+  transition: 0.3s all;
+}
+
+.twitter:hover {
+  margin-bottom: 8px;
+  background-color: rgb(22, 21, 21);
+}
+
+.whatsapp {
+  height: 40px;
+  margin-left: 10px;
+  width: 100px;
+  border-style: none;
+  color: white;
+  background-color: rgb(61, 179, 61);
+  border-radius: 12px;
+  transition: 0.3s all;
+}
+
+
+.whatsapp:hover {
+  margin-bottom: 8px;
+  background-color: rgb(53, 148, 53);
+}
+
+.messenger {
+  height: 40px;
+  width: 100px;
+  margin-left: 10px;
+  color: white;
+  background-color: rgb(66, 143, 215);
+  border-style: none;
+  border-radius: 12px;
+  transition: 0.3s all ;
+
+}
+
+.messenger:hover {
+  margin-bottom: 8px;
+  background-color:rgb(58, 124, 185) ;
+}
+
+.reddit {
+  height: 40px;
+  width: 100px;
+  margin-left: 10px;
+  color: white;
+  background-color: orangered;
+  border-style: none;
+  border-radius: 12px;
+  transition: 0.3s all;
+}
+
+.reddit:hover {
+  margin-bottom: 8px;
+  background-color: rgb(230, 96, 47);
+}
+
+span {
+  color: #cae962;
+}
+
+
+.friends {
+  color: white;
+}
+
+
+.sharing {
+  display: flex;
+  
+  margin-top: 50px;
+  width: 800px;
+  margin-left: 70px;
+  text-align: center;
+  
+  
+  align-items: center;
+  
+  
+}
+
+.animes {
+display: flex;
+justify-content: space-around;
+ 
+}
+
+.round-text {
+  color: #cae962;
+  font-size: 20px;
+  text-align: center;
+}
+
+.onepiece {
+ 
+  
+  background: linear-gradient(rgb(35, 34, 34), rgb(48, 47, 47));
+  
+  
+  
+
+}
+
+.onepiece img {
+  
+  height: 300px;
+  transition: 0.2s all;
+}
+
+.onepiece img:hover {
+  transform: scale(0.9);
+}
+
+.main {
+  
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3),rgb(30, 29, 29)), url(images/buy0srooere71.png);
+  height: 600px;
+  background-size: cover;
+  padding-top: 10px;
+  padding-left: 40px;
+  
+
+}
+
+.watch-now {
+  height: 40px;
+  border-radius: 19px;
+  border-style: none;
+  background-color: #bfdc5e;
+  transition: all 0.5s;
+}
+
+
+.watch-now:hover {
+  background-color: #40c737;
+
+}
+
+.info {
+  color: white;
+}
+
+
+.spotlight {
+  color: #cae962;
+  font-weight: bold;
+  font-size: 30px;
+  
+  
+}
+
+.option {
+  
+  display: flex;
+  justify-content: space-between;
+  width: 350px;
+}
+
+
+.left-section {
+  align-items: center;
+  display: flex;
+
+}
+
+.time {
+  color: white;
+  
+
+}
+
+* {
+  font-weight: bold;
+}
+
+
+.date {
+  color:white;
+}
+
+.tv {
+  color: white;
+}
+
+.HD {
+  border-style: none;
+  width: 35px;
+  background-color: #cae962;
+  text-align: center;
+  color: black;
+  border-radius: 8px;
+  font-weight: bold;
+}
+
+.cc {
+  color: rgb(0, 0, 0);
+  border-style:none;
+  border-radius: 4px;
+  font-size: 18px;
+  
+  background-color: white;
+
+}
+
+
+.middle-section {
+  flex: 1;
+  margin-left: 70px;
+  margin-right: 35px;
+  max-width: 500px;
+  display: flex;
+  align-items: center;
+  
+}
+
+.search-bar {
+  flex: 1;
+  height: 34px;
+  padding-left:10px;
+  font-size: 16px;
+  border-width: 1px;
+  border-style: solid;
+  border-color: rgb(255, 255, 255);
+  border-radius: 2px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
+  width: 0;
+  
+  
+
+}
+
+.search-bar::placeholder {
+  font-family: roboto,arial;
+  font-size: 16px;
+  color: #000000 ;
+}
+
+.right-section {
+  width: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 20px;
+  flex-shrink: 0;
+
+}
+
+.current-user {
+  height: 37px;
+  border-radius: 50%;
+
+}
+
+.trending {
+  color: #cae962 ;
+  font-size: 30px;
+  margin-left: 20px;
+}
+
+.fa-bars {
+  color: white;
+  margin-right: 24px;
+  margin-left: 24px;
+  height: 30px;
+  font-weight: bold;
+  margin-top: 12px;
+  
+}
+
+.fa-bell {
+  height: 30px;
+  color: rgb(224, 224, 224);
+  margin-top: 12px;
+  
+
+}
+
+.notification-icon-container {
+  position: relative;
+}
+
+.notification-count {
+  position: absolute;
+  top: -2px;
+  right: -5px;
+  background-color: #cae962;
+  color:rgb(0, 0, 0);
+  font-family: roboto,arial;
+  font-size: 10px;
+  
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 10px;
+  margin-top:12px ;
+  border-color: black;
+  border-style: solid;
+  border-width: 1px;
+
+}
+
+
+
+.zoro-logo {
+  height: 30px;
+  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
